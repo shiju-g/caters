@@ -20,9 +20,9 @@ export default function RootLayout({
         <link
           href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,800&display=swap"
           rel="stylesheet"
-        ></link>
+        />
       </head>
-      <body className="font-poppins">
+      <body className="font-poppins ">
         <Header />
         {children}
       </body>
