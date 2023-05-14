@@ -5,13 +5,17 @@ type Props = {};
 const ContactCard = (props: Props) => {
   return (
     <div
-      className="w-fit px-20 rounded-2xl shadow tracking-wider mx-auto mt-10 text-center  py-5"
+      className=" md:w-fit sm:w-10/12 w-11/12 md:px-20 px-5 rounded-2xl shadow tracking-wider mx-auto md:mt-10 mt-5 text-center  py-8"
       style={{ background: "rgba(255, 165, 0, 0.1)" }}
     >
-      <h1 className="text-3xl font-extrabold ">9388596889</h1>
-      <p className=" font-medium my-1">catering@mail.com</p>
-      <p className="text-lg text-[#FFA500] font-semibold">
-        Allinivas House, VP Thara , Kollengode, Palakkad <br /> PIN - 678506
+      <h1 className="xl:text-3xl md:text-2xl text-xl font-extrabold ">
+        9388596889
+      </h1>
+      <p className="md:text-base text-sm text-gray-600 font-semibold my-1">
+        srigiricatering@mail.com
+      </p>
+      <p className="md:text-lg text-base md:mt-auto mt-1 text-[#FFA500] font-semibold">
+        Allinivas House, VP Thara , Kollengode, Palakkad
       </p>
     </div>
   );
