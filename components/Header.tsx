@@ -4,8 +4,15 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <div className="bg-[#143E05] absolute top-0 w-full z-20  flex items-center justify-between px-10 py-3">
-      <Image src="/img/logo.png" width={145} height={50} alt="logo" priority />
+    <div className="bg-[#143E05] absolute top-0 w-full z-20  flex items-center justify-between md:px-10 px-3 py-3">
+      <Image
+        className="sm:w-40 w-32"
+        src="/img/logo.png"
+        width={135}
+        height={50}
+        alt="logo"
+        priority
+      />
     </div>
   );
 };
