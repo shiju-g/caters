@@ -6,16 +6,19 @@ export default function Home() {
   return (
     <Suspense fallback={<p>Loading....</p>}>
       <div className="relative overflow-hidden">
-        <div className="absolute w-full top-0 sm:pt-36 pt-28">
+        <div className=" sm:pt-36 pt-28">
           <BannerSlider />
           <ContactCard />
         </div>
 
         <img
-          src="/img/food-background.png"
-          className="w-full h-screen object-cover sm:pt-0 pt-32"
+          src="/img/food-banner.png"
+          className="w-full object-fill sm:h-[600px] h-auto "
           alt="dfsa"
         />
+      </div>
+      <div className="bg-gray-100 py-5">
+        <h6 className="text-center font-semibold">Copyright © 2023 </h6>
       </div>
     </Suspense>
   );
