@@ -4,12 +4,18 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <div className="bg-[#143E05] absolute top-0 w-full z-20  flex items-center justify-between md:px-10 px-3 py-3">
+    <div
+      className=" absolute top-0 w-full z-20  flex items-center justify-between  py-3"
+      style={{
+        background:
+          "linear-gradient(0deg, rgba(0, 114, 11, 0.9), rgba(0, 114, 11, 0.7)), #FFFFFF;",
+      }}
+    >
       <Image
-        className="sm:w-32 w-32"
-        src="/img/logo.png"
-        width={100}
-        height={50}
+        className=" rounded-lg -ml-1.5"
+        src="/img/srigiri.png"
+        width={250}
+        height={80}
         alt="logo"
         priority
       />
@@ -18,3 +24,5 @@ const Header = () => {
 };
 
 export default Header;
+
+// bg-[#143E05]
