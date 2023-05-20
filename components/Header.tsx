@@ -18,7 +18,7 @@ const Header = () => {
         initial={{ x: -100, scale: 0.8, opacity: 0 }}
         animate={{ x: 0, opacity: 1, scale: 1 }}
         transition={{
-          duration: 2,
+          duration: 1,
           ease: "easeInOut",
           times: [1],
           repeat: Infinity,
