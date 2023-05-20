@@ -1,10 +1,19 @@
+"use client";
 import React from "react";
+import { motion } from "framer-motion";
 
 type Props = {};
 
 const ContactCard = (props: Props) => {
   return (
-    <div
+    <motion.div
+      initial={{ scale: 0, opacity: 0, rotate: 180 }}
+      animate={{ rotate: 0, scale: 1, opacity: 1 }}
+      transition={{
+        type: "spring",
+        stiffness: 260,
+        damping: 20,
+      }}
       className=" md:w-fit cursor-pointer sm:w-10/12 w-11/12 md:px-20 px-5 rounded-2xl shadow tracking-wider mx-auto md:mt-10 mt-5 text-center  py-8"
       style={{
         background:
@@ -20,7 +29,7 @@ const ContactCard = (props: Props) => {
       <p className="md:text-lg text-sm mt-2.5 leading-tight   md:mt-auto  text-[#FFA500] font-semibold hover:scale-105 duration-200">
         Allinivas House, VP Thara , Kollengode, Palakkad
       </p>
-    </div>
+    </motion.div>
   );
 };
 
