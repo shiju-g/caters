@@ -4,7 +4,7 @@ import { Suspense } from "react";
 
 export default function Home() {
   return (
-    <Suspense fallback={<p>Loading....</p>}>
+    <Suspense fallback={<p>Loading...</p>}>
       <div className="relative overflow-hidden">
         <div className=" sm:pt-36 pt-28">
           <BannerSlider />
