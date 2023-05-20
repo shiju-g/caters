@@ -11,7 +11,7 @@ const ContactCard = (props: Props) => {
       animate={{ rotate: 0, scale: 1, opacity: 1 }}
       transition={{
         type: "spring",
-        stiffness: 260,
+        stiffness: 100,
         damping: 20,
       }}
       className=" md:w-fit cursor-pointer sm:w-10/12 w-11/12 md:px-20 px-5 rounded-2xl shadow tracking-wider mx-auto md:mt-10 mt-5 text-center  py-8"
