@@ -27,6 +27,9 @@ export default function RootLayout({
       <body className="font-poppins ">
         <Header />
         {children}
+        <div className="bg-gray-100 py-5 sm:relative absolute bottom-0 w-full">
+          <h6 className="text-center font-semibold">Copyright © 2023 </h6>
+        </div>
       </body>
     </html>
   );
