@@ -40,7 +40,7 @@ const BannerSlider = () => {
       speed={1500}
       loop={true}
       modules={[Autoplay]}
-      className="mySwiper xl:w-7/12 lg:w-9/12 md:w-10/12 relative w-11/12  mx-auto  md:mt-5  text-center font-bold xl:text-2xl sm:text-xl text-sm tracking-wider md:rounded-full rounded-3xl px-5 shadow-lg"
+      className="mySwiper xl:w-7/12 lg:w-9/12 md:w-10/12 relative w-11/12  mx-auto  md:mt-5 mt-2  text-center font-bold xl:text-2xl sm:text-xl text-sm tracking-wider md:rounded-full rounded-3xl px-5 shadow-lg"
       style={{ background: "rgba(0, 255, 26, 0.08);" }}
     >
       {sliderArray &&
