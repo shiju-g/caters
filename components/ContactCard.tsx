@@ -6,7 +6,10 @@ const ContactCard = (props: Props) => {
   return (
     <div
       className=" md:w-fit cursor-pointer sm:w-10/12 w-11/12 md:px-20 px-5 rounded-2xl shadow tracking-wider mx-auto md:mt-10 mt-5 text-center  py-8"
-      style={{ background: "rgba(255, 165, 0, 0.1)" }}
+      style={{
+        background:
+          "linear-gradient(0deg, rgba(255, 199, 0, 0.17), rgba(255, 199, 0, 0.17)), #FFFFFF;",
+      }}
     >
       <h1 className="xl:text-3xl md:text-2xl text-xl font-extrabold hover:scale-105 duration-300">
         9388596889
