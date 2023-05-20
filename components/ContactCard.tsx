@@ -15,9 +15,9 @@ const ContactCard = (props: Props) => {
         9388596889
       </h1>
       <p className="md:text-base text-sm text-gray-600 font-semibold my-1 hover:scale-105 duration-300">
-        srigiricatering@mail.com
+        srigiricatering@gmail.com
       </p>
-      <p className="md:text-lg text-base md:mt-auto mt-1 text-[#FFA500] font-semibold hover:scale-105 duration-200">
+      <p className="md:text-lg text-sm mt-2.5 leading-tight   md:mt-auto  text-[#FFA500] font-semibold hover:scale-105 duration-200">
         Allinivas House, VP Thara , Kollengode, Palakkad
       </p>
     </div>
