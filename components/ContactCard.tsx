@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 type Props = {};
 
@@ -20,9 +21,12 @@ const ContactCard = (props: Props) => {
           "linear-gradient(0deg, rgba(255, 199, 0, 0.17), rgba(255, 199, 0, 0.17)), #FFFFFF;",
       }}
     >
-      <h1 className="xl:text-3xl md:text-2xl text-xl font-extrabold hover:scale-105 duration-300">
+      <Link
+        href="tell:9388596889"
+        className="xl:text-3xl md:text-2xl text-xl font-extrabold hover:scale-105 duration-300"
+      >
         9388596889
-      </h1>
+      </Link>
       <p className="md:text-base text-sm text-gray-600 font-semibold my-1 hover:scale-105 duration-300">
         srigiricatering@gmail.com
       </p>
